@@ -1,0 +1,619 @@
+@import "zero.css";
+
+/*GENERAL-------------------------------------------------------------*/
+body{
+    font-family: 'Raleway', sans-serif;
+    font-size: 12px;
+    color: black;
+    background: #242B33;
+}
+
+.wrapper{
+    min-height: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.container{
+    max-width: 1110px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+._ibg {
+    position: relative;
+}
+
+._ibg img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/*HEADER-------------------------------------------------------------*/
+
+.header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 50;
+    padding: 30px 0 0 0;
+}
+
+.header__container {
+}
+
+.header__row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__block-logo {}
+
+.header__logo {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+
+.header__sublogo {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 116%;
+    letter-spacing: 0.12em;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.header__menu {
+}
+
+.header__list {
+    display: flex;
+    align-items: center;
+}
+
+.header__item:not(:last-child) {
+    margin: 0 40px 0 0;
+}
+
+.header__item {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 114%;
+    letter-spacing: 0.05em;
+}
+
+.header__link {
+    color: #FFFFFF;
+}
+
+/*MAIN-------------------------------------------------------------*/
+
+.main {
+    position: relative;
+    z-index: 2;
+    flex: 1 1 auto;
+}
+
+/*BEGIN-------------------------------------------------------------*/
+
+.begin {
+    padding: 0 0 74px 0;
+}
+
+.begin__container {
+    position: relative;
+    z-index: 2;
+    max-width: 560px;
+    padding: 300px 0 0 0;
+}
+
+.begin__row {
+}
+
+.begin__text {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 133%;
+    text-align: center;
+    color: #D4C17F;
+}
+
+.begin__scroll-img {
+    text-align: center;
+    padding: 100px 0 0 0;
+}
+
+.begin__block-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 200px 0 0 0;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 116%;
+    text-align: center;
+    color: #FFFFFF;
+
+}
+
+.block-info__geo {
+}
+
+.begin__geo {
+    padding: 0 15px 0 0;
+}
+
+.block-info__contact {
+}
+
+.begin__contact {
+    padding: 0 15px 0 0;
+}
+
+.begin__bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/*SERVICES-------------------------------------------------------------*/
+
+.services {
+    position: relative;
+    z-index: 2;
+    padding: 120px 0 120px 0;
+}
+
+.two {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 80px 170px 0 0;
+}
+
+.services__container {
+}
+
+.services__row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.services__column {
+    flex: 0 1 25%;
+    margin: 0 -35px;
+}
+
+.services__item {
+    padding: 0 35px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 135%;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.services__item_image {
+    text-align: center;
+    margin: 0 0 53px 0;
+}
+
+.services__item_text {
+}
+
+/*APARTMENTS-------------------------------------------------------------*/
+
+.apartments {
+    position: relative;
+    z-index: 2;
+}
+
+.true__img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 80px 0 0 200px;
+}
+
+.apartments__container {
+    position: relative;
+    z-index: 2;
+}
+
+.container {
+}
+
+.apartments__title {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 133%;
+    color: #D4C17F;
+    margin: 0 0 100px 0;
+}
+
+.apartments__row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.apartments__column {
+    flex: 0 1 50%;
+    margin: 0 -15px 30px -15px;
+}
+
+.apartments__item {
+    padding: 0 15px;
+}
+
+.apartments__image {
+}
+
+.apartments__image_text {
+    position: relative;
+    z-index: 3;
+    margin: -50px 0 0 50px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 116%;
+    color: #FFFFFF;
+
+}
+
+/*MAIN-------------------------------------------------------------*/
+
+.see {
+    position: relative;
+    z-index: 2;
+    padding: 180px 0 180px 0;
+}
+
+.see__container {
+    position: relative;
+    z-index: 2;
+}
+
+.see__row {
+    display: flex;
+    align-items: center;
+}
+
+.see__left-block {
+    max-width: 535px;
+    margin: 0 35px 0 0;
+}
+
+.see__title {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 133%;
+    color: #D4C17F;
+    margin: 0 0 50px 0;
+}
+
+.see__text {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #BEBEBE;
+}
+
+.see__right-block {
+}
+
+.see__right-block_row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.see__column {
+    flex: 0 1 50%;
+    margin: 0 -15px;
+}
+
+.see__item {
+    padding: 0 15px;
+    text-align: center;
+}
+
+.see__bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#see-1 {
+    background: #FFFFFF;
+    opacity: 0.2;
+    padding: 12px 83px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 193%;
+    margin: 0 0 35px 0;
+}
+
+#see-2 {
+    background: #FFFFFF;
+    opacity: 0.2;
+    padding: 12px 70px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 193%;
+    margin: 0 0 35px 0;
+}
+
+#see-3 {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 123%;
+    text-align: center;
+    color: #E7E7E7;
+    padding: 0;
+}
+
+#see-4 {
+    padding: 12px 20px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 169%;
+    text-align: center;
+    background: #D4C17F;
+    color: black;
+}
+
+#see-1-1 {
+    color: black;
+}
+
+#see-2-1 {
+    color: black;
+}
+
+#see-3-1 {
+    color: #E7E7E7;
+}
+
+#see-4-1 {
+    color: #FFFFFF;
+}
+
+/*PLAY-------------------------------------------------------------*/
+
+.play {
+    position: relative;
+    z-index: 2;
+    padding: 0 0 180px 0;
+}
+
+.play__container {
+    position: relative;
+    z-index: 2;
+}
+
+.play__playing {
+    position: relative;
+    z-index: 4;
+    margin: 275px 0 0 0;
+    text-align: center;
+}
+
+.play__image img{
+    max-width: 850px;
+    min-height: 650px;
+}
+
+.play__image {
+    position: relative;
+    z-index: 2;
+    margin: -360px 0 0 0;
+    text-align: center;
+}
+
+.play__four {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    justify-content: right;
+    margin: -150px 0 0 0;
+}
+
+/*MAP-------------------------------------------------------------*/
+
+.map {
+    position: relative;
+    z-index: 2;
+    margin: 0 0 180px 0;
+}
+
+.map__container {
+}
+
+.map__title {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 133%;
+    color: #D4C17F;
+    margin: 0 0 100px 0;
+}
+
+/*QUESTIONS-------------------------------------------------------------*/
+
+.questions {
+    margin: 0 0 180px 0;
+}
+
+.questions__container {
+}
+
+.container {
+}
+
+.questions__title {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 133%;
+    color: #D4C17F;
+    margin: 0 0 50px 0;
+}
+
+.questions__row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.questions__btn-1 {
+    max-width: 255px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 123%;
+    text-align: center;
+    color: #E7E7E7;
+}
+
+.questions__btn-2 {
+    max-width: 255px;
+    background: #FFFFFF;
+    opacity: 0.2;
+    padding: 12px 60px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 192%;
+    color: black;
+}
+
+.questions__btn-3 {
+    max-width: 255px;
+    background: #D4C17F;
+    padding: 12px 50px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 168%;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+/*FOOTER-------------------------------------------------------------*/
+
+.footer {
+    background-color: #2D343C;
+    padding: 60px 0 50px 0;
+}
+
+.footer__container {
+}
+
+.footer__row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__logo {
+}
+
+.footer__title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 245%;
+    color: #FFFFFF;
+}
+
+.footer__text {
+    ont-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 116%;
+    letter-spacing: 0.12em;
+    color: #FFFFFF;
+}
+
+.footer__list-1 {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 114%;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+}
+
+.footer__link:not(:last-child) {
+    margin: 0 0 15px 0;
+}
+
+.footer__list-2 {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 114%;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+}
+
+.footer__link_img {
+    display: flex;
+    align-items: center;
+}
+
+.footer__img {
+    margin: 0 20px 0 0;
+}
